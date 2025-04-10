@@ -1,4 +1,4 @@
-package fr.groupe5.restaurant.client;
+package fr.groupe5.restaurant.model;
 
 public class Client {
 

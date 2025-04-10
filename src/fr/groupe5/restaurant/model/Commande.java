@@ -1,6 +1,4 @@
-package fr.groupe5.restaurant.commande;
-
-import fr.groupe5.restaurant.client.Client;
+package fr.groupe5.restaurant.model;
 
 import java.time.LocalDateTime;
 

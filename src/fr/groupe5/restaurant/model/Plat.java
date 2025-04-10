@@ -1,4 +1,4 @@
-package fr.groupe5.restaurant.plat;
+package fr.groupe5.restaurant.model;
 
 public class Plat {
     private String nomPlat;

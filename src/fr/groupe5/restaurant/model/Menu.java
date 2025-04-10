@@ -1,4 +1,4 @@
-package fr.groupe5.restaurant.menu;
+package fr.groupe5.restaurant.model;
 
 public class Menu {
 

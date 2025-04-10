@@ -1,4 +1,4 @@
-package fr.groupe5.restaurant.reservation;
+package fr.groupe5.restaurant.model;
 
 import java.time.LocalDateTime;
 
