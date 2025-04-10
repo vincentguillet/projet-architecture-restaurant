@@ -1,0 +1,40 @@
+restaurant/
+├── Main.java                             
+├── common/
+│   └── utils/
+│       └── DateUtils.java                
+│
+├── client/
+│   ├── Client.java                       
+│   ├── ClientService.java                
+│   ├── ClientRepository.java             
+│   ├── ClientCLI.java                    
+│   └── ClientDAO.java            
+│
+├── reservation/
+│   ├── Reservation.java                  
+│   ├── ReservationService.java          
+│   ├── ReservationRepository.java        
+│   ├── ReservationCLI.java              
+│   └── ReservationDAO.java         
+│
+├── commande/
+│   ├── Commande.java                     
+│   ├── CommandeService.java              
+│   ├── CommandeRepository.java           
+│   ├── CommandeCLI.java                  
+│   └── CommandeDAO.java            
+│
+├── plat/
+│   ├── Plat.java                        
+│   ├── PlatService.java                  
+│   ├── PlatRepository.java               
+│   ├── PlatCLI.java                      
+│   └── PlatDAO.java
+│   
+├── menu/
+│   ├── Menu.java                        
+│   ├── MenuService.java                  
+│   ├── MenuRepository.java               
+│   ├── MenuCLI.java                      
+│   └── MenuDAO.java                    
