@@ -1,16 +1,20 @@
 package fr.groupe5.restaurant.commande;
 
+import fr.groupe5.restaurant.client.Client;
+
 import java.time.LocalDateTime;
 
 public class Commande {
     private int idCommande;
     private int prixCommande;
     private LocalDateTime dateCommande;
+    private Client client;
 
-    public Commande(int idCommande, int prixCommande, LocalDateTime dateCommande){
+    public Commande(int idCommande, int prixCommande, LocalDateTime dateCommande, Client client) {
         this.idCommande = idCommande;
         this.prixCommande = prixCommande;
         this.dateCommande = dateCommande;
+        this.client = client;
     }
     public int getIdCommande() {
         return this.idCommande;
@@ -21,6 +25,7 @@ public class Commande {
     public LocalDateTime getDateCommande() {
         return this.dateCommande;
     }
+    public Client getClient() {return this.client;}
     public void setIdCommande(int idCommande) {
         this.idCommande = idCommande;
 }
@@ -30,4 +35,7 @@ public class Commande {
     public void setDateCommande(LocalDateTime dateCommande) {
         this.dateCommande = dateCommande;
 }
+    public void setClient(Client client) {
+        this.client = client;
+    }
 }
